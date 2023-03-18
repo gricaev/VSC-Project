@@ -10,7 +10,6 @@ html, body {
 
 img {
     display: block;
-    max-width: 100%;
     height: auto;
 }
 
@@ -76,7 +75,7 @@ p {
 }
 
 .hero {
-    padding: 100px 0;
+    padding: 32px 0;
     background: rgba(246, 248, 251, 0.9);
 }
 
@@ -267,12 +266,13 @@ p {
     margin-bottom: 24px;
 }
 
-.benefits__item-subtitle {
+.benefits__item-caption {
     font-weight: 400;
     font-size: 18px;
     line-height: 28px; 
     color: rgba(0, 0, 0, 0.87);
     margin-bottom: 85px;
+    margin-right: 20px;
 }
 
 @media (max-width: 1024px) {
